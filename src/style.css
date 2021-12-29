@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+:root {
+  --clr-primary: hsl(246, 80%, 60%);
+
+  --clr-neutral-very-dark: hsl(226, 43%, 10%);
+  --clr-neutral-dark: hsl(235, 46%, 20%);
+  --clr-neutral-light: hsl(235, 45%, 61%);
+  --clr-neutral-very-light: hsl(236, 100%, 87%);
+}
+
+html {
+  background-color: var(--clr-neutral-very-dark);
+  font-family: Rubik, sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  position: relative;
+}
+
+#app {
+  /* Add min-width zero so the component is not overflowing */
+  /* See https://moduscreate.com/blog/how-to-fix-overflow-issues-in-css-flex-layouts/ for more */
+  min-width: 0;
+}
+
+.attribution {
+  position: absolute;
+  width: 100%;
+  bottom: 0.5rem;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 55%);
+}
