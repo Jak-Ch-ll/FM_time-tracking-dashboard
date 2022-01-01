@@ -30,8 +30,9 @@ Users should be able to:
 
 ### Links
 
+- [Live Site on Netlify](https://fm-time-tracking.netlify.app/)
+- [Solution Page on Frontent Mentor](https://www.frontendmentor.io/solutions/time-tracking-dashboard-with-typescript-and-vanilla-web-components-PWd7hx0St)
 - [Code on Github](https://github.com/Jak-Ch-ll/FM_time-tracking-dashboard)
-- [Preview on Netlify](https://fm-time-tracking.netlify.app/)
 
 ## My process
 
